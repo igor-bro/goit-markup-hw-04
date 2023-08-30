@@ -1,4 +1,4 @@
-/* Default parameters */ 
+/* ----------------Default parameters---------------- */ 
 body {
     color: #434455;
     background-color: #FFFFFF;
@@ -30,7 +30,7 @@ img {
 } 
 
 
-/* Main class */
+/* ----------------Main class----------------- */
 .container {
     width: 1158px;
     margin-left: auto;
@@ -64,7 +64,7 @@ img {
 }
 
 
-/* Header */
+/* ----------------Header---------------- */
 
 .flexible {
     display: flex;
@@ -138,7 +138,7 @@ img {
 }
 
 
-/* Hero section */
+/* ----------------Hero section---------------- */
 
 .hero .container {
     background-color: #2e2f42;
@@ -189,7 +189,7 @@ img {
 }
 
 
-/* About section */
+/* ----------------About section---------------- */
 
 .aboutcontainer {
     padding: 120px 0;
@@ -242,7 +242,7 @@ img {
     margin-bottom: 8px;
 }
 
-/* Team section */
+/* ----------------Team section---------------- */
 
 .team {
     background-color: #F4F4FD;
@@ -321,7 +321,7 @@ img {
     text-align: center;
 }
 
-/* Portfolio */
+/* ----------------Portfolio---------------- */
 
 .portfolio {
     padding-top: 120px;
@@ -354,7 +354,7 @@ img {
 }
 
 
-/* Footer */
+/* ----------------Footer---------------- */
 
 .footer {
     background-color: #2e2f42;
