@@ -93,9 +93,6 @@ img {
 .menulist-item {
     padding-top: 24px;
     padding-bottom: 24px;
-    position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .logo {
@@ -114,22 +111,26 @@ img {
 }
 
 .navlink {
-    color: #404bbf;
+    color: #434455;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navlink::after {
+.navlink:hover::after,
+.navlink:focus::after {
+    display: block;
     content: '';
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
     position: absolute;
     left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
+    bottom: -24px;
 }
 
 .navlink:hover, .navlink:focus {
@@ -318,6 +319,7 @@ img {
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-item-icon {
@@ -390,11 +392,16 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfoliolist-item:hover, .portfoliolist-item:focus {
+.portfoliolist-item:hover, 
+.portfoliolist-item:focus {
     box-shadow: 
     0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfoliolist-item-image:hover .portfoliolist-item-overlay,
+.portfoliolist-item-image:focus .portfoliolist-item-overlay {
     transform: translateY(0%);
 }
 
@@ -459,6 +466,7 @@ img {
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-item-f:hover, .icons-item-f:focus {
