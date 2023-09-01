@@ -133,7 +133,7 @@ img {
     background-color: #404bbf;
     position: absolute;
     left: 0;
-    bottom: -24px;
+    bottom: -1px;
 }
 
 .navlink:hover, .navlink:focus {
@@ -423,7 +423,6 @@ img {
 
 .footer-icons {
     display: flex;
-    margin-right: 120px;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
