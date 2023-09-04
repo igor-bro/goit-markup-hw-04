@@ -434,7 +434,6 @@ img {
 
 .footerlogo {
     margin-right: 120px;
-    margin-bottom: 16px;
 }
 
 .spanlogofooter {
@@ -447,6 +446,7 @@ img {
     letter-spacing: 0.02em;
     max-width: 264px;
     font-weight: 500;
+    margin-bottom: 16px;
 }
 
 .icons-item-f {
